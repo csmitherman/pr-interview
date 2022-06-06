@@ -35,3 +35,17 @@ var title = document.querySelector("h1");
 title.setAttribute("alt", "To sign in please enter a valid username and password.")
 
 modal.setAttribute("role", "modal");
+
+// error handling
+var loginButton = document.querySelector("#login-button");
+var errorMessage = document.querySelector("#error")
+
+errorMessage.setAttribute("role", "alert");
+
+loginButton.addEventListener("onclick", function () {
+        if (username.length || password.length) {
+            errorMessage.classList.add("visible");
+        } else {
+        errorMessage.classList.remove("visible");
+        }
+});
