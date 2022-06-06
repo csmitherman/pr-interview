@@ -32,7 +32,6 @@ body {
     justify-content: center;
     flex-flow: column;
     background: rgba(0,0,0,.5);
-    z-index: -1;
 }
 
 .container,
@@ -67,7 +66,7 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: lime;
+    background: #00AA8D;
     border: none;
     height: 42px;
     width: 150px;
@@ -123,7 +122,6 @@ button.ghost {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative
 }
 
 .footer li {

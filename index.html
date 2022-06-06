@@ -12,22 +12,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="header">
         <div class="logo">
             <p>Logo</p>
         </div>
-    </header>
+    </div>
     <div class="container-wrapper">
         <div class="container">
-            <h1>Log In</h1>
+            <h3>Log In</h3>
             <div class="login">
                 <div class="input-container">
                     <label id="fname-label">Username</label>
-                    <input type="text" id="username" aria-labelledby="username-label"/>
+                    <input type="text" aria-labelledby="username-label"/>
                 </div>
                 <div class="input-container">
                     <label id="password-label">Password</label>
-                    <input type="password" id="password" aria-labelledby="password-label"/>
+                    <input type="password" aria-labelledby="password-label"/>
                 </div>
                 <button>Login</button>
                 <button id="forgot-password" class="ghost">Forgot password?</button>
@@ -35,8 +35,8 @@
         </div>
         <div class="modal-wrapper" id="modal">
             <div class="modal">
-                <h1>Forgot Password</h1>
-                <p style="margin-bottom: 15px;">Please enter your username below to begin password recovery</p>
+                <h3>Forgot Password</h3>
+                <p>Please enter your username below to begin password recovery</p>
                 <div class="input-container">
                     <label id="fname-label">Username</label>
                     <input type="text" aria-labelledby="username-label"/>
@@ -45,8 +45,8 @@
                 <i class="material-icons" id="close-modal">close</i>
             </div>
         </div>
-        <footer>
-            <ul id="footer-menu">
+        <div class="footer">
+            <ul>
                 <li>
                     <a href="#">About</a>
                 </li>
@@ -57,7 +57,7 @@
                     <a href="#">Legal</a>
                 </li>
             </ul>
-        </footer>
+        </div>
     </div>
 </body>
 <script src="scripts.js"></script>
